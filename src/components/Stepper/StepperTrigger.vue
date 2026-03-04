@@ -24,8 +24,10 @@ import { StepperTrigger as RekaStepperTrigger } from "reka-ui";
           data-[state=inactive]:text-muted-foreground 
           data-[state=inactive]:border-border/50
           mr-1
-          "
+"
   >
     <slot />
   </RekaStepperTrigger>
 </template>
+
+
